@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do you love me?</title>
+  <link rel="stylesheet" href="index2.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+
+</head>
+<body>
+    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <g id="emojiContainer">
+         <text id="emoji" x="50%" y="400"> 😮 </text>
+         </g>
+             <g id="hitLines" transform="translate(-10,0)" stroke-width="4" fill="none" stroke="#FFC83D" stroke-miterlimit="10" stroke-linecap="round">
+               <line x1="362.5" y1="400.5" x2="339.5" y2="404.5" />
+               <line x1="361.6" y1="392.32" x2="339.5" y2="386.5"  opacity="0.7"/>
+               <line x1="457.14" y1="391.53" x2="486.71" y2="382.12" opacity="0.7"/>
+               <line x1="456.5" y1="400.5" x2="478.5" y2="404.5"  />
+             </g> 
+        <g id="shadow">
+         <!-- <rect  width="80" height="4" x="360" y="404" fill="#222" opacity="0.6" /> -->
+         <line x1="360" y1="404" x2="440" y2="404" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+         </g>
+       </svg>
+       <div style="position: absolute;
+       top: 50px;
+       width: 100%;
+       font-size: 18px;"><label>💖💖💖</label> Anh cũng yêu em <label>💖💖💖</label></div>
+</body>
+</html>
+<script src="index2.js"></script>
